@@ -1,0 +1,64 @@
+body
+{
+	background-color: #E0E0E0;
+}
+
+.footer
+{
+
+	margin:20 auto 0 auto;
+}
+
+
+.page_head{
+	text-align: center;
+	padding-left: 0%;
+}
+#game_over {
+	color: blue; 
+}
+
+.container{
+	margin: 0 auto;
+}
+
+.tab {
+	empty-cells: show;
+	table-layout:fixed; 
+	border-spacing: 0px;
+	width:500px;
+	height:500px;
+	
+	}
+.cell
+{
+	text-align: center;
+	border-style: solid;
+	border-color: #00ffff;
+	overflow:hidden;
+	height:50px;
+	width:50px;
+    font-weight: bold;
+    font-size: 100%;
+	color : blue;
+	
+
+}
+@media all and (max-width: 480px){
+
+.container{
+	padding-left:0%;
+	padding-right:0%;
+}
+.tab {
+	empty-cells: show;
+	table-layout:fixed; 
+	border-spacing: 0px;
+	width:200px;
+	height:200px;
+	
+	}
+
+
+}
+
